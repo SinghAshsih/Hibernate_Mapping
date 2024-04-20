@@ -58,10 +58,10 @@ public class MapClient {
 		Transaction transaction = session.beginTransaction();
 		session.save(question1);
 		session.save(question2);
-		session.update(question3);
+		session.save(question3);
 		session.save(answer1);
 		session.save(answer2);
-		session.update(answer3);
+		session.save(answer3);
 		transaction.commit();
 		session.close();
 		sessionFactory.close();
