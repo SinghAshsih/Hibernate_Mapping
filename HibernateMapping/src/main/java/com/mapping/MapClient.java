@@ -22,7 +22,7 @@ public class MapClient {
 		Answer answer1 = new Answer();
 		answer1.setAnswerId(177);
 		answer1.setAnswer("Java is programing language");
-
+		answer1.setQuestion(question1);
 		question1.setAnswer(answer1);
 
 		// -----------------------------------------------------------------------------------
@@ -35,7 +35,7 @@ public class MapClient {
 		Answer answer2 = new Answer();
 		answer2.setAnswerId(1244);
 		answer2.setAnswer("A interface which have only one abstract method .");
-
+		answer2.setQuestion(question2);
 		question2.setAnswer(answer2);
 
 		// ---------------------------------------------------------------------------
@@ -49,6 +49,7 @@ public class MapClient {
 		Answer answer3 = new Answer();
 		answer3.setAnswerId(1246);
 		answer3.setAnswer("The process of acquaring property from parent to child is called inheritance.");
+		answer3.setQuestion(question3);
 		question3.setAnswer(answer3);
 
 		// ---------------------------------------------------------------------------
